@@ -65,7 +65,7 @@ main {
 }
 
 .body1 {
-  background-image: url("../assets/fond.png");
+  background-image: url("assets/fond.png");
   height: 1000px;
 }
 
@@ -105,7 +105,7 @@ main {
 
 .parallax {
     position: relative;
-    background-image: url("../assets/banner2.webp");
+    background-image: url("assets/banner2.webp");
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -120,7 +120,7 @@ main {
 }
 
 .sec_rectangle {
-  background-image: url("../assets/Capture d’écran du 2024-05-31 00-27-07.png");
+  background-image: url("assets/Capture d’écran du 2024-05-31 00-27-07.png");
   width: 25%;
   height: 500px;
   margin-left: 5%;
@@ -128,7 +128,7 @@ main {
 }
 
 .sec_rectangle2 {
-  background-image: url("../assets/Capture d’écran du 2024-05-31 00-28-54.png");
+  background-image: url("assets/Capture d’écran du 2024-05-31 00-28-54.png");
   width: 25%;
   height: 500px;
   margin-left: 5%;
@@ -136,7 +136,7 @@ main {
 }
 
 .sec_rectangle3 {
-  background-image: url("../assets/Capture d’écran du 2024-05-31 00-31-59.png");
+  background-image: url("assets/Capture d’écran du 2024-05-31 00-31-59.png");
   width: 25%;
   height: 500px;
   margin-left: 5%;
@@ -154,7 +154,7 @@ main {
 }
 
 .circle {
-  background-image: url("../assets/profile_pic.jpg");
+  background-image: url("assets/profile_pic.jpg");
   background-size: cover;
   background-position: center;
 }
