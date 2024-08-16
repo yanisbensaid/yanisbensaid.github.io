@@ -130,26 +130,39 @@ main {
 
 .sec_rectangle {
   background-image: url("assets/Capture d’écran du 2024-05-31 00-27-07.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 25%;
   height: 500px;
   position: absolute;
   left: 100px;
+  margin-bottom: 300px;
 }
 
 .sec_rectangle2 {
   background-image: url("assets/Capture d’écran du 2024-05-31 00-28-54.png");
-  width: 25%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 35%;
   height: 500px;
   position: absolute;
-  left: 700px;
+  left: 620px;
+  margin-bottom: 300px;
 }
 
 .sec_rectangle3 {
   background-image: url("assets/Capture d’écran du 2024-05-31 00-31-59.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 25%;
   height: 500px;
   position: absolute;
   left: 1300px;
+  margin-bottom: 300px;
+
 }
 
 .circle, .main {
@@ -569,28 +582,28 @@ main {
 
 .classic-link {
   text-decoration: none;
-  color: black;
+  color: white;
   position: absolute;
   font-size: 20x;
-  margin-bottom: -600px;
+  margin-bottom: -100px;
   left: 260px;
 }
 
 .classic-link2 {
   text-decoration: none;
-  color: black;
+  color: white;
   position: absolute;
   font-size: 20x;
-  margin-bottom: -600px;
+  margin-bottom: -100px;
   left: 860px;
 }
 
 .classic-link3 {
   text-decoration: none;
-  color: black;
+  color: white;
   position: absolute;
   font-size: 20x;
-  margin-bottom: -600px;
+  margin-bottom: -100px;
   left: 1460px;
 }
 
