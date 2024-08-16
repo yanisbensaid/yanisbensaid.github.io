@@ -54,10 +54,11 @@ header {
     top: 0;
     left: 5%;
     width: 90%;
-    background: linear-gradient(70deg, rgba(8, 25, 34, 0.500), rgba(14, 45, 61, 0.500));
+    background: linear-gradient(90deg, #0f134f,#273270,#494c8c);
     color: #fff;
     padding: 20px;
-    box-shadow: 0 2px 5px #181717;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 } 
 
 main {
@@ -65,12 +66,20 @@ main {
 }
 
 .body1 {
-  background-image: url("assets/fond.png");
+  background: linear-gradient(90deg, #0f134f,#273270,#494c8c);
   height: 1000px;
 }
 
+.additional-image {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  right: 500px;
+  top: 150px;
+}
+
 .body2 {
-  background: linear-gradient(70deg, #0e1e30cc, #90959bcc);
+  background: linear-gradient(90deg, #0f134f,#273270,#494c8c);
   height: 1000px;
 }
 
@@ -123,24 +132,24 @@ main {
   background-image: url("assets/Capture d’écran du 2024-05-31 00-27-07.png");
   width: 25%;
   height: 500px;
-  margin-left: 5%;
-  margin-right: 5%;
+  position: absolute;
+  left: 100px;
 }
 
 .sec_rectangle2 {
   background-image: url("assets/Capture d’écran du 2024-05-31 00-28-54.png");
   width: 25%;
   height: 500px;
-  margin-left: 5%;
-  margin-right: 5%;
+  position: absolute;
+  left: 700px;
 }
 
 .sec_rectangle3 {
   background-image: url("assets/Capture d’écran du 2024-05-31 00-31-59.png");
   width: 25%;
   height: 500px;
-  margin-left: 5%;
-  margin-right: 5%;
+  position: absolute;
+  left: 1300px;
 }
 
 .circle, .main {
@@ -341,7 +350,7 @@ main {
   }
   
 .ui-btn:hover span, .ui-btn:focus span {
-    color: #FAC921;
+    color: hsl(192, 100%, 69%);
   }
   
 .ui-btn:hover span::before, .ui-btn:focus span::before {
@@ -447,7 +456,7 @@ main {
     font-size: 1.5em;
     font-weight: 600;
     font-family: 'Courier New', sans-serif;
-    color: #121833;
+    color: white;
     text-align: left;
     margin-left: -30%;
     margin-bottom: 50px;
@@ -561,25 +570,28 @@ main {
 .classic-link {
   text-decoration: none;
   color: black;
+  position: absolute;
   font-size: 20x;
   margin-bottom: -600px;
-  margin-left: -400px;
+  left: 260px;
 }
 
 .classic-link2 {
   text-decoration: none;
   color: black;
+  position: absolute;
   font-size: 20x;
   margin-bottom: -600px;
-  margin-left: -400px;
+  left: 860px;
 }
 
 .classic-link3 {
   text-decoration: none;
   color: black;
+  position: absolute;
   font-size: 20x;
   margin-bottom: -600px;
-  margin-left: -400px;
+  left: 1460px;
 }
 
 .classic-link3:hover {
